@@ -51,5 +51,4 @@ function fillData() {
     ref.mail.value = savedDataParse.mail;
     ref.message.value = savedDataParse.message;
   }
-  console.log(savedDataParse);
 }
