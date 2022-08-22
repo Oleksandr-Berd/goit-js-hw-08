@@ -22,6 +22,4 @@ const currentTime = JSON.parse(time);
 
 const seconds = currentTime.seconds;
 
-player.setCurrentTime(seconds).then(function (seconds) {
-  // seconds = the actual time that the player seeked to
-});
+player.setCurrentTime(seconds).then(function (seconds) {});
