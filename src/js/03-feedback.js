@@ -50,5 +50,8 @@ function fillData() {
   if (savedDataParse) {
     ref.mail.value = savedDataParse.mail;
     ref.message.value = savedDataParse.message;
+
+    data.mail = savedDataParse.mail;
+    data.message = savedDataParse.message;
   }
 }
